@@ -1,4 +1,5 @@
-module.exports = {
+// prettier.config.mjs
+export default {
   semi: true,
   singleQuote: true,
   trailingComma: 'es5',
