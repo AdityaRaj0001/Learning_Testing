@@ -3,7 +3,6 @@
 import { render, screen, fireEvent } from '@testing-library/react';
 import CheckoutButton from './CheckoutButton';
 import '@testing-library/jest-dom';
-import { useRouter } from 'next/router'; // Import to ensure the mock is active
 
 // Mock Router Setup (as defined above, repeated here for context)
 const mockRouterPush = jest.fn();

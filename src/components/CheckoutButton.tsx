@@ -7,14 +7,11 @@ interface CheckoutButtonProps {
 
 const CheckoutButton: React.FC<CheckoutButtonProps> = ({ cartItemCount }) => {
   const router = useRouter();
-  const unused = 'This will trigger an ESLint error';
 
   const handleCheckout = () => {
     if (cartItemCount > 0) {
       router.push('/checkout');
     }
-    console.log(nonExistentVar); // ❌ ESLint: 'nonExistentVar' is not defined
-    console.log("Hello world");
   };
 
   return (
