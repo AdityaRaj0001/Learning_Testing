@@ -14,7 +14,7 @@ const CheckoutButton: React.FC<CheckoutButtonProps> = ({ cartItemCount }) => {
       router.push('/checkout');
     }
     console.log(nonExistentVar); // ❌ ESLint: 'nonExistentVar' is not defined
-    console.log("Hello world")
+    console.log("Hello world");
   };
 
   return (
